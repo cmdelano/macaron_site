@@ -163,6 +163,52 @@ p {
     }
 }
 
+@media screen and (max-width: 1028px) {
+    ul {
+        margin: 1% 0 1% 3%;
+        padding: 0;
+}
+
+    li {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.25em;
+        padding: 4% 0 4% 0;
+    }
+
+    h3 {
+        font-size: 1.75em;
+    }
+
+    ul {
+    padding: 0;
+}
+
+    li {
+        padding: 0;
+    }
+
+    .footer {
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 2em;
+        padding: 4% 0 4% 0;
+    }
+
+    h3 {
+        font-size:: 1em;
+    }
+}
+
 /* There are no print styles for this page */
 
 
